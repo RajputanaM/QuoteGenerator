@@ -13,14 +13,14 @@ h1{
   font-size: 6rem;
   margin-top: 0;
 }
-h1:after{
+/* h1:after{
     content: "";
     display: block;
     background: #000000;
     position: absolute;
   
     right: 0;
-}
+} */
 .quote{
     width: 600px;
     height: 300px;
@@ -47,11 +47,21 @@ a{
     color: rgb(56, 34, 34);
     font-family: cursive;
     border-radius: 20px;
-    border: 2px solid black;
+    border: 2px saolid black;
     padding-left: 20px;
     padding-right: 20px;
 }
 a:hover {
     color: #1c8564;
     background-color: rgb(45, 59, 24);
+}
+
+@media (max-width: 1100px){
+    img{
+        left: 45%;
+    }
+    h1{
+        margin-top: 200px;
+        text-align: center;
+    }
 }
